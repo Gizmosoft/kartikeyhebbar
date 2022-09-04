@@ -26,37 +26,37 @@ export default function Navbar() {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav justify-content-end">
             <li className="nav-item">
-              <Link className="nav-link" aria-current="page" to="/#">
+              <Link className="nav-link" aria-current="page" to="/">
                 Home
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/#/workex">
+              <Link className="nav-link" to="/workex">
                 Work Experience
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/#/education">
+              <Link className="nav-link" to="/education">
                 Education
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/#/skills">
+              <Link className="nav-link" to="/skills">
                 Skills
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/#/projects">
+              <Link className="nav-link" to="/projects">
                 Personal Projects
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/#/research">
+              <Link className="nav-link" to="/research">
                 Research
               </Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="/#/aspirations">
+              <Link className="nav-link" to="/aspirations">
                 Interests & Aspirations
               </Link>
             </li>
