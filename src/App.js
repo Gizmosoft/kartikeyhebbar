@@ -29,12 +29,12 @@ function App() {
           </>
         }>
         </Route>
-        <Route exact path={"/workex"} element={<Workex />} />
-        <Route exact path={"/education"} element={<Education />} />
-        <Route exact path={"/skills"} element={<Skills />} />
-        <Route exact path={"/projects"} element={<Project />} />
-        <Route exact path={"/research"} element={<Research />} />
-        <Route exact path={"/aspirations"} element={<Aspirations />} />
+        <Route exact path={"/#/workex"} element={<Workex />} />
+        <Route exact path={"/#/education"} element={<Education />} />
+        <Route exact path={"/#/skills"} element={<Skills />} />
+        <Route exact path={"/#/projects"} element={<Project />} />
+        <Route exact path={"/#/research"} element={<Research />} />
+        <Route exact path={"/#/aspirations"} element={<Aspirations />} />
       </Routes>
       {/* <Footer /> */}
 
