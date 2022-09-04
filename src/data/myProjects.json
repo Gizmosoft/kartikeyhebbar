@@ -1,0 +1,88 @@
+[
+    {
+        "id": 1,
+        "title": "Novelist - Book Tracking App",
+        "timestamp": "May 2022 - Jun 2022",
+        "tech": [
+            "Java Spring Boot",
+            "Apache Cassandra",
+            "REST API",
+            "HTML/Bootstrap"
+        ],
+        "domain": "Web Development",
+        "description": "A book tracking web application developed using Spring Boot Framework of Java and Apache Cassandra (DataStax Astra) NoSQL database which helps users track their book reading, update reading status and rate the books. The dataset for book tracking from the Open Library has been reduced to smaller size for testing purposes however, this application uses Open Library Web API to allow users to search any book in the world. Apache Cassandra offers high performance and scalability to this project. Thymeleaf templating engine is used to create simple UI along with HTML, CSS and Bootstrap. Spring Boot is the backend technology connecting to the Web APIs and the database.",
+        "source": "https://github.com/Gizmosoft/Novelist-Book-Tracking-App",
+        "live": ""
+    },
+    {
+        "id": 2,
+        "title": "To-Do List",
+        "timestamp": "Apr 2022",
+        "tech": [
+            "ReactJs",
+            "Bootstrap",
+            "HTML/CSS"
+        ],
+        "domain": "Web Development",
+        "description": "This is a To-Do Single Page Application created using React, JSX, HTML, CSS and Bootstrap. Users can add a title and description of to-do items which will show up as a list below on the same page. Once completed, the item can be marked complete. This application uses a Javascript feature called localStorage to store and retrieve the added data from the browser memory itself.This data is persistent across multiple sessions until browser memory is not cleared.",
+        "source": "https://github.com/Gizmosoft/Todo-List-React",
+        "live": "https://zph2n1.csb.app/"
+    },
+    {
+        "id": 3,
+        "title": "Emotional Assistant Powered by Artificial Intelligence",
+        "timestamp": "Oct 2019 - May 2020",
+        "tech": [
+            "Python",
+            "Pandas",
+            "NumPy",
+            "Scikit-learn"
+        ],
+        "domain": "Artificial Intelligence",
+        "description": "A conversational AI-based chatbot designed to interact with people suffering from various mental illnesses such as Depression, OCD etc. and analyze their sentiments along with handling positive conversations with them. In parallel, the chatbot prepares a graphical representation of the analysis and shares it to the concerned medical practitioner for medical visibility and intervention, thereby bridging a gap between patient and doctors.",
+        "source": "https://github.com/Gizmosoft/Bezzie---Emotional-Assistant-Chatbot",
+        "live": ""
+    },
+    {
+        "id": 4,
+        "title": "Face-Recognition Based Attendance Manager",
+        "timestamp": "Apr 2019 - May 2019",
+        "tech": [
+            "Python",
+            "OpenCV"
+        ],
+        "domain": "Artificial Intelligence",
+        "description": "This is a face detection & recognition application to automate attendance management using Computer Vision and OpenCV library (Python). This requires pre-capturing of the attendees pictures with the help of which it trains its Machine Learning model to predict the users later on whenever required. It is capable of detecting multiple people in a single frame.",
+        "source": "https://github.com/Gizmosoft/Face_Recognition_Attendance_Manager",
+        "live": ""
+    },
+    {
+        "id": 5,
+        "title": "Blabbershare - Blog",
+        "timestamp": "Sept 2018 - Nov 2018",
+        "tech": [
+            "Django",
+            "HTML/CSS",
+            "Bootstrap",
+            "PostgreSQL"
+        ],
+        "domain": "Web Development",
+        "description": "A simple blog made using Django Framework of Python and PostgreSQL database on the server-side along with HTML/CSS and Bootstrap framework on the client-side. This blog allows users to authenticate against credentials and post random blogs and pictures.",
+        "source": "https://github.com/Gizmosoft/Blabbershare-AlphaBuild",
+        "live": ""
+    },
+    {
+        "id": 6,
+        "title": "Solus Night - 2D Adventure Platformer Game",
+        "timestamp": "Nov 2021 - Jan 2022",
+        "tech": [
+            "Unity3D",
+            "C#",
+            "Game Level Design"
+        ],
+        "domain": "Game Development",
+        "description": "This is a simple 2D-Platformer game designed for Windows OS using C# scripting and Unity3D game engine. It comprises of few small levels incorporating a linear game level design. The game is published on Itch.io",
+        "source": "https://github.com/Gizmosoft/Blabbershare-AlphaBuild",
+        "live": "https://deadcatproductions.itch.io/solus-night"
+    }
+]

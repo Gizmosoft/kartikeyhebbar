@@ -1,0 +1,15 @@
+[
+    {
+        "id": 1,
+        "title": "Mental Illness Detection and Monitoring Bot using Predictive Analysis Approach",
+        "paper": "International Research Journal of Engineering and Technology (IRJET)",
+        "issued": "Volume: 07 Issue: 06 | June 2020",
+        "description": [
+            "This research was aimed at improving the traditional mental health remedies and the overall process for treatment of mental illnesses by using Artificial Intelligence and Natural Language Processing. The whole process revolves around developing a converational AI chatbot to interact with the users suffering from mental illnesses such as Depression, Stress, Anxiety and Obsessive Compulsive Disorder thereby bridging a gap between patients and their medical practitioners.",
+            "A common problem reated to how mental illnesses are dealt with medically are that there is a prolonged gap between subsequent appointments with the psychologists and a significant amount of cases aggrevate during this gap since there is no constant monitoring of the subject to provide help if condition gets worse. Usually, patients connect with their doctors only through appointments but sometimes a constant monitoring is necessary to predict if the situation is getting worse and a proper medical intervention is needed.",
+            "The proposed solution - a converational AI chatbot called Bezzie, aims at reducing the catastrophic situations mentioned above by building a virtual bridge between the patients and doctors using its Machine Learning prediction models and sophisticated dialogflow management technologies.",
+            "Whenever the user has a conversation with the chatbot, it analyzes the sentiments of the user, plots a graphical representation of the analysis and immediately shares the report with the concerned psychologist for them to analyze that better. Since a doctor cannot be present with all their patients everytime, this helps in keeping track of all patients in real-time virtually. If the doctor suspects any emergency based on how the patient is feeling, they can immediately call for action to prevent any adverse mishaps."
+        ],
+        "url": "https://irjet.net/archives/V7/i6/IRJET-V7I6612.pdf"
+    }
+]

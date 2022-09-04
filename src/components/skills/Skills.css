@@ -1,0 +1,187 @@
+.skill-content{
+    display: block;
+}
+
+.languages {
+    display: block;
+}
+
+.libraries{
+    display: block;
+}
+
+.tools{
+    display: block;
+}
+
+.othertech{
+    display: block;
+}
+
+.certifications{
+    display: block;
+}
+
+.contents {
+    display: flex;
+}
+
+.prog-lang {
+    border-radius: 20px;
+    border-color: grey;
+    width: 20rem;
+    height: 20rem;
+    background-color: transparent;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    flex-grow: inherit;
+}
+
+.libs {
+    border-radius: 20px;
+    border-color: grey;
+    width: 15rem;
+    height: 15rem;
+    background-color: transparent;
+    margin-right: 50px;
+    margin-bottom: 40px;
+    flex-grow: inherit;
+}
+
+.libs img {
+    display: block;
+    max-width: 150px;
+    min-width: 100px;
+    min-height: 100px;
+    max-height: 120px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.prog-lang img {
+    display: block;
+    min-height: 150px;
+    max-height: 150px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+.card-img-top {
+    width: 100%;
+    height: 15vw;
+    object-fit: cover;
+}
+
+.card-body{
+    text-align: center;
+}
+
+.java {
+    color: #ca2707;
+}
+
+.python {
+    color: green;
+}
+
+.js {
+    color: yellow;
+}
+
+.sql{
+    color: #e1983e;
+}
+
+.others{
+    color: white;
+}
+
+.react {
+    color: aqua;
+}
+
+.bootstrap {
+    color: rgb(98, 11, 98);
+}
+
+.rest {
+    color: rgb(178, 178, 201);
+}
+
+.tech-items {
+    font-size: small;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.cert-items small{
+    float: right;
+    justify-content: right;
+    text-indent: 40%;
+}
+
+.certs {
+    width: 100%;
+}
+
+@media screen and (max-width: 768px){
+    .skill-container{
+        height: auto;
+        width: auto;
+        align-items: center;
+    }
+    .skill-content{
+        width: auto;
+        height: auto;
+        position: relative;
+        display: block;
+    }
+    .languages{
+        height: auto;
+        width: auto;
+    }
+
+    .contents{
+        display: flex;
+        height: auto;
+        align-items: center;
+    }
+    .small-contents{
+        display: block;
+        height: auto;
+        display: flex;
+    }
+    .libs{
+        columns: 2;
+        -webkit-columns: 2;
+        -moz-columns: 2;
+    }
+    .libraries{
+        height: auto;
+        width: auto;
+    }
+    .othertech{
+        display: block;
+        height: auto;
+        width: auto;
+        margin-top: 50px;
+    }
+    .certifications{
+        margin-top: 30px;
+        height: auto;
+        width: auto;
+    }
+    .certs{
+        width: auto;
+        height: auto;
+    }
+    .cert-items small{
+        float: none;
+        display: block;
+        text-indent: 20px;
+        color: grey;
+    }
+}

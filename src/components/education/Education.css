@@ -1,0 +1,92 @@
+.education-box {
+    border: 3px solid lightgreen;
+    border-radius: 25px;
+}
+
+h4.college-details {
+    text-indent: 40px;
+}
+
+.college-details {
+    line-height: 0.3;
+}
+
+.degree {
+    font-size: 20px;
+}
+
+.branch {
+    text-indent: 40px;
+}
+
+.grade {
+    text-indent: 40px;
+}
+
+.grade label {
+    letter-spacing: 3px;
+}
+
+.courses {
+    font-size: 17px;
+}
+
+.course-items {
+    font-size: small;
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+}
+
+.responsibilities .tech-achievements{
+    font-size: 17px;
+}
+
+.resp-desc li {
+    font-size: 15px;
+}
+
+.achievements li {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 768px){
+    .heading-container{
+        height: auto;
+        width: auto;
+        align-items: center;
+    }
+    .education-box{
+        border-width: auto;
+        height: auto;
+        /* overflow: auto; */
+    }
+    .college {
+        width: auto;
+        height: auto;
+    }
+    h3.college-details{
+        font-size: 20px;
+    }
+    h4.college-details {
+        text-indent: 0px;
+    }
+    h3.college-details small {
+        display: block;
+        line-height: 200%;
+        font-size: medium;
+    }
+    .degree-div {
+        display: inline-block;
+        width: auto;
+    }
+    .degree{
+        font-size: medium;
+    }
+    .achievements{
+        text-align: justify;
+    }
+    .resp-desc{
+        text-align: justify;
+    }
+}

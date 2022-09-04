@@ -1,0 +1,135 @@
+body {
+    /* background-color: #e0ded7; */
+    background-color: #0d0e2d;
+    color: white;
+}
+
+/* This will put the divs in flex below each other rather than on side - on mobile */
+/* @media (max-width: 800px) {
+    [class*="container"]{
+        flex-direction: column;
+        height: 95vh;
+        width: 100vw;
+    }
+    [class*="about-section"]{
+        padding-left: 0px;
+        margin-left: 2px;
+    }
+} */
+
+.container-dp {
+    width: 350px;
+    border: 1px solid lightgreen;
+    padding: 15px;
+    margin: 5px;
+    height: 600px;
+    /* padding-left: 20px; */
+}
+
+.container {
+    display: flex;
+}
+
+.rounded-circle {
+    margin: 6px;
+    align-items: center;
+}
+
+.title {
+    width: 340px;
+    height: auto;
+    margin: 10px auto;
+    position: relative;
+    text-align: center;
+    color: white;
+    margin-top: 5px;
+    font-size: 2em;
+    font-weight: 600;
+}
+
+.title small{
+    color: lightgreen;
+    font-size: 0.6em;
+}
+
+.title-social {
+    align-items: center;
+    padding-top: 15px;
+}
+
+.title-description {
+    text-align: justify;
+    padding-top: 2px;
+    padding-right: 10px;
+    margin-bottom: 3px;
+    margin-top: 5px;
+    font-size: 1.5em;
+    color: white;
+}
+
+.title-description-p {
+    font-size: small;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.9;
+}
+
+.fa-linkedin {
+    color: #007bb5;
+}
+
+.fa-github {
+    /* color: #171515; */
+    color: white;
+}
+
+.fa-google {
+    color: rgb(210, 44, 11);
+}
+
+.fa {
+    padding: 2px;
+    font-size: 40px;
+    width: 50px;
+    text-decoration: none;
+    margin: 0px 10px;
+}
+
+.about-header{
+    color: #fe4164;
+    font-weight: 600;
+}
+
+.about-section {
+    padding-top: 50px;
+    padding-left: 40px;
+}
+
+.about-description {
+    font-size: 1em;
+    text-align: justify;
+    font-weight: 450;
+}
+
+.location-pin {
+    display: flex;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 768px){
+    [class*="container"]{
+        flex-direction: column;
+        height: 97vh;
+        width: 94vw;
+    }
+    [class*="container-dp"]{
+        align-items: center;
+        width: auto;
+    }
+    .about-section{
+        padding-left: 0;
+        margin-left: 0;
+    }
+}

@@ -1,0 +1,33 @@
+.navbar-brand {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    /* margin-bottom: auto ; */
+}
+
+.navbar-nav {
+    float: right;
+}
+
+.nav-item {
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.nav-link{
+    width: max-content;
+}
+
+@media all and (max-width: 600px){
+    .nav-item {
+        margin-left: 0px;
+        margin-right: 0px;
+    }
+    .navbar-brand{
+        font-size: 25px;
+    }
+    .container-fluid{
+        height: 100%;
+        width: 100%;
+    }
+}

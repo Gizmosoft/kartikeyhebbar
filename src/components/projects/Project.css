@@ -1,0 +1,91 @@
+.project-box {
+    border: 3px solid #fe4164;
+    border-radius: 25px;
+    margin: 5 5 5 5;
+}
+
+.project {
+    display: inline;
+    margin-bottom: 10px;
+}
+
+.project-title small {
+    float: right;
+}
+
+.project-description {
+    text-align: justify;
+    line-height: 20pt;
+    font-size: 15px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+.more a{
+    padding-top: 5px;
+    padding-bottom: 20px;
+    position: relative;
+    color: lightgreen;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+.research-title {
+    float: left;
+}
+
+.research-paper{
+    font-size: large;
+}
+
+.research-desc {
+    float: left;
+    text-align: justify;
+}
+
+.paper-url{
+    float: left;
+    display: block; 
+    clear:both;
+}
+
+@media screen and (max-width: 768px){
+    .project-container, .research-container{
+        height: auto;
+        width: auto;
+        align-items: center;
+    }
+    .project-box{
+        border-width: auto;
+        height: min-content;
+    }
+    .project{
+        height: min-content;
+        width: auto;
+        text-align: left;
+    }
+    .project-title{
+        width: auto;
+        text-align: left;
+    }
+    .project-title small {
+        display: block;
+        line-height: 200%;
+        float: none;
+        
+    }
+    .project-description{
+        width: auto;
+    }
+    .research-title{
+        text-align: left;
+    }
+    .more{
+        height: auto;
+        width: auto;
+    }
+}
