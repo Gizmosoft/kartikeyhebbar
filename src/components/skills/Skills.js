@@ -198,6 +198,16 @@ export default function Skills() {
           <div className="container certs">
             <ul className="cert-items">
               <a
+                  href="https://www.credly.com/badges/58bad974-e41d-4947-acb0-55430885ccde/public_url"
+                  target="_blank"
+                  rel="noreferrer"
+                >
+                  <li>
+                    AWS Certified Cloud Practitioner<small>AWS</small>
+                  </li>
+              </a>
+
+              <a
                 href="https://verify.acloud.guru/C111766D223A"
                 target="_blank"
                 rel="noreferrer"

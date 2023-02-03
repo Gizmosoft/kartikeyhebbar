@@ -1,6 +1,23 @@
 [
     {
         "id": 1,
+        "title": "Barclays Premier League Dashboard",
+        "timestamp": "Jan 2023",
+        "tech": [
+            "Java Spring Boot",
+            "Apache Tomcat",
+            "ReactJS",
+            "AWS Beanstalk",
+            "REST API",
+            "HTML/CSS"
+        ],
+        "domain": "Web Development",
+        "description": "Created a dashboard website to show team-wise match data of all the clubs that played the league between 2006 and 2018. Used Spring Batch to format and convert a Kaggle dataset to a HyperSQL (in-memory database) database instance. Created REST APIs using Spring Boot and developed UI components using ReactJS which consumed the APIs to show data. A consolidated build of React and Spring boot was hosted on the cloud using AWS Beanstalk.",
+        "source": "https://github.com/Gizmosoft/premierleague-dashboard",
+        "live": "http://premierleaguedashboard-env.eba-rkmsps3g.us-east-1.elasticbeanstalk.com/"
+    },
+    {
+        "id": 2,
         "title": "Novelist - Book Tracking App",
         "timestamp": "May 2022 - Jun 2022",
         "tech": [
@@ -15,7 +32,7 @@
         "live": ""
     },
     {
-        "id": 2,
+        "id": 3,
         "title": "To-Do List",
         "timestamp": "Apr 2022",
         "tech": [
@@ -29,7 +46,7 @@
         "live": "https://zph2n1.csb.app/"
     },
     {
-        "id": 3,
+        "id": 4,
         "title": "Emotional Assistant Powered by Artificial Intelligence",
         "timestamp": "Oct 2019 - May 2020",
         "tech": [
@@ -44,7 +61,7 @@
         "live": ""
     },
     {
-        "id": 4,
+        "id": 5,
         "title": "Face-Recognition Based Attendance Manager",
         "timestamp": "Apr 2019 - May 2019",
         "tech": [
@@ -57,7 +74,7 @@
         "live": ""
     },
     {
-        "id": 5,
+        "id": 6,
         "title": "Blabbershare - Blog",
         "timestamp": "Sept 2018 - Nov 2018",
         "tech": [
@@ -72,7 +89,7 @@
         "live": ""
     },
     {
-        "id": 6,
+        "id": 7,
         "title": "Solus Night - 2D Adventure Platformer Game",
         "timestamp": "Nov 2021 - Jan 2022",
         "tech": [
