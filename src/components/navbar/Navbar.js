@@ -9,7 +9,7 @@ export default function Navbar() {
       <div className="d-flex flex-nowrap w-100">
         <Link className="navbar-brand" to="/">
             {/* <img src={favicon} alt="" width="40" height="34" className="d-inline-block align-text-top" /> */}
-          &lt;/&gt; Kartikey V Hebbar
+          &lt;/&gt; Kartikey Hebbar
         </Link>
         <button
           className="navbar-toggler"

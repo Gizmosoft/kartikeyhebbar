@@ -28,27 +28,24 @@ export default function Workex() {
                   <small>Bengaluru</small>
                 </h3>
                 <h5 className="card-title">
-                  <strong>Application Development Analyst</strong>
+                  <strong>Software Engineer Analyst</strong>
                 </h5>
-                <h6 className="card-title">Dec 2020 - Present</h6>
+                <h6 className="card-title">Dec 2020 - Apr 2023</h6>
                 <br />
               </div>
               <div className="flip-card-back">
                 <h5>
                   <ul>
                     <li>
-                      Managing Identity & Access Management Operations for a Fortune 500 corporation leading the insurance market in North America.
+                      Led Automation projects within Identity & Access Management team and streamlined 5+ critical operations using Python, Java and REST APIs which resulted in saving over 1500 hours of manual work along with improving accountability and resiliency.
                     </li>
                     <li>
-                      Successfully automated 5+ critical operational workflows by remediating crucial bottlenecks using Python. Handling various IAM operations using Sailpoint, Active Directory and LDAP.
-                    </li>
-                    <li>
-                      Trained on niche skills such as Spring Boot (Java), Microservices and Amazon Web Services.
+                      Developed one-click patch scripts using Python to remediate critical Apache vulnerabilities on 100+ Linux-based servers actively used across various teams.
                     </li>
                     <span className="badge bg-success">Python</span>
-                    <span className="badge bg-danger">Active Directory/LDAP</span>
+                    <span className="badge bg-warning">Java Spring Boot</span>
+                    <span className="badge bg-danger">REST API</span>
                     <span className="badge bg-info">Sailpoint</span>
-                    <span className="badge bg-danger">Spring Boot/Java</span>
                     <span className="badge bg-warning">Amazon Web Services</span>
                   </ul>
                 </h5>

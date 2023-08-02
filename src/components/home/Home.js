@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/anchor-has-content */
 import React from 'react';
-import display_pic from "../../images/display_pic.jpg";
+import display_pic_new from "../../images/display_pic_new.jpg";
 import './Home.css'
 // import { Link } from "react-router-dom";
 
@@ -10,9 +10,9 @@ export default function Home() {
     <div className="container">
       {/* Display Card */}
       <div className='container-dp'>
-      <img className="rounded-circle z-depth-2" width="300" height="280" alt="100x100" src={display_pic} data-holder-rendered="true"></img>
+      <img className="rounded-circle z-depth-2" width="300" height="280" alt="100x100" src={display_pic_new} data-holder-rendered="true"></img>
       <div className='title'>
-        Kartikey V Hebbar
+        Kartikey Hebbar
         <br /><small>Software Engineer</small>
         <br />
         <div className='title-social'>
@@ -26,7 +26,7 @@ export default function Home() {
           <small>
             <p>I love learning & building new things</p>
             <p className='title-description-p'>Java &#128992; | Python &#128994;</p>
-            <p className='title-description-p'>SpringBoot | Django | ReactJS</p>
+            <p className='title-description-p'>Spring Boot | Django | ReactJS</p>
           </small>
       </div>
       </div>
