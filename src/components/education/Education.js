@@ -12,7 +12,27 @@ export default function Education() {
 
     <div className='container education-box'>
         <div className='container-sm college'>
-            <h3 className='college-details'><strong>Bangalore Institute of Technology <small>Bengaluru, KA</small></strong></h3>
+            <h3 className='college-details'><strong>Northeastern University <small>Boston, MA</small></strong></h3>
+            {/* <h4 className='college-details'><small>affiliated to Visvesvaraya Technological University (VTU), Belgaum</small></h4><br /> */}
+
+            <div className='container-sm degree-div'>
+            <h4 className='degree'>Master of Science (M.S.) | 2023 - 2025 (Expected) </h4>
+            <h5 className='branch'>Software Engineering Systems</h5>
+            {/* <h5 className='grade'>Grade: <label>7.14/10.0</label></h5><br /> */}
+
+            <h5 className='courses'><strong>Relevant Courses:</strong></h5>
+              <ul className='course-items'>
+                <li>CSYE 6200 : Concepts of Object-Oriented Design</li>
+                <li>INFO 6150 : Web Design & User Experience Engineering</li>
+              </ul>
+              <br />
+        </div>
+        </div>
+    </div><br />
+
+    <div className='container education-box'>
+        <div className='container-sm college'>
+            <h3 className='college-details'><strong>Bangalore Institute of Technology <small>Bengaluru, IND</small></strong></h3>
             <h4 className='college-details'><small>affiliated to Visvesvaraya Technological University (VTU), Belgaum</small></h4><br />
 
             <div className='container-sm degree-div'>
