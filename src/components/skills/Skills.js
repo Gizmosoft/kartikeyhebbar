@@ -51,7 +51,7 @@ export default function Skills() {
               <img src={jsLogo} className="card-img-top" alt="js-logo" />
               <div className="card-body js">
                 <h4>
-                  <strong>Javascript</strong>
+                  <strong>Javascript/TS</strong>
                 </h4>
               </div>
             </div>

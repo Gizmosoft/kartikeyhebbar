@@ -18,12 +18,14 @@ export default function Education() {
             <div className='container-sm degree-div'>
             <h4 className='degree'>Master of Science (M.S.) | 2023 - 2025 (Expected) </h4>
             <h5 className='branch'>Software Engineering Systems</h5>
-            {/* <h5 className='grade'>Grade: <label>7.14/10.0</label></h5><br /> */}
+            <h5 className='grade'>Grade: <label>3.68 / 4.00</label></h5><br />
 
             <h5 className='courses'><strong>Relevant Courses:</strong></h5>
               <ul className='course-items'>
                 <li>CSYE 6200 : Concepts of Object-Oriented Design</li>
                 <li>INFO 6150 : Web Design & User Experience Engineering</li>
+                <li>INFO 6205 : Program Structures & Algorithms</li>
+                <li>INFO 6105 : Data Science Engineering Methods & Tools</li>
               </ul>
               <br />
         </div>
