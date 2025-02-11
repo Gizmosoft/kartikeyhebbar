@@ -1,5 +1,42 @@
 [
     {
+        "id": -1,
+        "title": "Ayuda",
+        "timestamp": "Oct 2023 - Present",
+        "tech": [
+            "Python",
+            "Machine Learning",
+            "ReactJS",
+            "REST API",
+            "HTML/CSS",
+            "MongoDB"
+        ],
+        "domain": "AI/Web Development",
+        "description": "Ayuda is a course recommendation system for University students which leverages AI models to understand the students' profile and recommend them the most suitable courses from their university course catalog.",
+        "source": "https://github.com/Ayuda-ai",
+        "live": ""
+    },
+    {
+        "id": 0,
+        "title": "PledgePilot",
+        "timestamp": "Oct 2023 - Dec 2023",
+        "tech": [
+            "Javascript",
+            "Node.js",
+            "ReactJS",
+            "Express.js",
+            "REST API",
+            "HTML/CSS",
+            "Typescript",
+            "Stripe SDK",
+            "MongoDB"
+        ],
+        "domain": "Web Development",
+        "description": "Spearheaded the full-stack development of a crowdfunding web app with 3 other developers using the MERN stack, ensuring a seamless user experience for campaign creation and fund processing via Stripe.\nImplemented a token-based reward system, acknowledging campaign contributors with tokens worth 10% of their contribution to boost user engagement and recognition.\nDevised robust backend REST APIs in Node.js/Express.js with over 10 components and 5 key features seamlessly integrating with frontend components in React.js, Material-UI, Bootstrap, and CSS.",
+        "source": "https://github.com/Gizmosoft/pledgepilot",
+        "live": ""
+    },
+    {
         "id": 1,
         "title": "Barclays Premier League Dashboard",
         "timestamp": "Jan 2023",
@@ -12,9 +49,9 @@
             "HTML/CSS"
         ],
         "domain": "Web Development",
-        "description": "Created a dashboard website to show team-wise match data of all the clubs that played the league between 2006 and 2018. Used Spring Batch to format and convert a Kaggle dataset to a HyperSQL (in-memory database) database instance. Created REST APIs using Spring Boot and developed UI components using ReactJS which consumed the APIs to show data. A consolidated build of React and Spring boot was hosted on the cloud using AWS Beanstalk.",
+        "description": "Designed a Spring Boot web application with RESTful APIs that aggregated and presented comprehensive match data, enhancing fan engagement by providing historical insights for over 20 clubs over a 12-year span.\nStreamlined over 4,500 records dataset migration to HSQLDB using Spring Batch, reducing retrieval times by 30%.\nDeployed responsive React.js UI components for Spring Boot APIs on AWS Beanstalk, ensuring 99.9% uptime and supporting up to 5000 concurrent users.",
         "source": "https://github.com/Gizmosoft/premierleague-dashboard",
-        "live": "http://premierleaguedashboard-env.eba-rkmsps3g.us-east-1.elasticbeanstalk.com/"
+        "live": ""
     },
     {
         "id": 2,
@@ -27,7 +64,7 @@
             "HTML/Bootstrap"
         ],
         "domain": "Web Development",
-        "description": "A book tracking web application developed using Spring Boot Framework of Java and Apache Cassandra (DataStax Astra) NoSQL database which helps users track their book reading, update reading status and rate the books. The dataset for book tracking from the Open Library has been reduced to smaller size for testing purposes however, this application uses Open Library Web API to allow users to search any book in the world. Apache Cassandra offers high performance and scalability to this project. Thymeleaf templating engine is used to create simple UI along with HTML, CSS and Bootstrap. Spring Boot is the backend technology connecting to the Web APIs and the database.",
+        "description": "A book tracking web application developed using Spring Boot Framework of Java and Apache Cassandra (DataStax Astra) NoSQL database which helps users track their book reading, update reading status and rate the books.\nThe dataset for book tracking from the Open Library has been reduced to smaller size for testing purposes however, this application uses Open Library Web API to allow users to search any book in the world. Apache Cassandra offers high performance and scalability to this project.\nThymeleaf templating engine is used to create simple UI along with HTML, CSS and Bootstrap. Spring Boot is the backend technology connecting to the Web APIs and the database.",
         "source": "https://github.com/Gizmosoft/Novelist-Book-Tracking-App",
         "live": ""
     },
@@ -41,7 +78,7 @@
             "HTML/CSS"
         ],
         "domain": "Web Development",
-        "description": "This is a To-Do Single Page Application created using React, JSX, HTML, CSS and Bootstrap. Users can add a title and description of to-do items which will show up as a list below on the same page. Once completed, the item can be marked complete. This application uses a Javascript feature called localStorage to store and retrieve the added data from the browser memory itself.This data is persistent across multiple sessions until browser memory is not cleared.",
+        "description": "This is a To-Do Single Page Application created using React, JSX, HTML, CSS and Bootstrap.\nUsers can add a title and description of to-do items which will show up as a list below on the same page.\nOnce completed, the item can be marked complete.\nThis application uses a Javascript feature called localStorage to store and retrieve the added data from the browser memory itself.This data is persistent across multiple sessions until browser memory is not cleared.",
         "source": "https://github.com/Gizmosoft/Todo-List-React",
         "live": "https://zph2n1.csb.app/"
     },
@@ -56,7 +93,7 @@
             "Scikit-learn"
         ],
         "domain": "Artificial Intelligence",
-        "description": "A conversational AI-based chatbot designed to interact with people suffering from various mental illnesses such as Depression, OCD etc. and analyze their sentiments along with handling positive conversations with them. In parallel, the chatbot prepares a graphical representation of the analysis and shares it to the concerned medical practitioner for medical visibility and intervention, thereby bridging a gap between patient and doctors.",
+        "description": "A conversational AI-based chatbot designed to interact with people suffering from various mental illnesses such as Depression, OCD etc. and analyze their sentiments along with handling positive conversations with them.\nIn parallel, the chatbot prepares a graphical representation of the analysis and shares it to the concerned medical practitioner for medical visibility and intervention, thereby bridging a gap between patient and doctors.",
         "source": "https://github.com/Gizmosoft/Bezzie---Emotional-Assistant-Chatbot",
         "live": ""
     },
@@ -69,7 +106,7 @@
             "OpenCV"
         ],
         "domain": "Artificial Intelligence",
-        "description": "This is a face detection & recognition application to automate attendance management using Computer Vision and OpenCV library (Python). This requires pre-capturing of the attendees pictures with the help of which it trains its Machine Learning model to predict the users later on whenever required. It is capable of detecting multiple people in a single frame.",
+        "description": "This is a face detection & recognition application to automate attendance management using Computer Vision and OpenCV library (Python).\nThis requires pre-capturing of the attendees pictures with the help of which it trains its Machine Learning model to predict the users later on whenever required. It is capable of detecting multiple people in a single frame.",
         "source": "https://github.com/Gizmosoft/Face_Recognition_Attendance_Manager",
         "live": ""
     },

@@ -13,6 +13,7 @@ import restLogo from "../../images/rest.png";
 import awsLogo from "../../images/aws.png";
 import mongoLogo from "../../images/mongo.webp";
 import cassandraLogo from "../../images/cassandra.png";
+import redisLogo from "../../images/redis.png";
 
 import "./Skills.css";
 
@@ -80,7 +81,11 @@ export default function Skills() {
           <hr />
           <div className="container small-contents">
             <div className="card libs">
-              <img src={springLogo} className="card-img-top" alt="spring-logo" />
+              <img
+                src={springLogo}
+                className="card-img-top"
+                alt="spring-logo"
+              />
               <div className="card-body python">
                 <h5>
                   <strong>Spring Framework</strong>
@@ -167,6 +172,18 @@ export default function Skills() {
                 </h5>
               </div>
             </div>
+            <div className="card libs">
+              <img
+                src={redisLogo}
+                className="card-img-top"
+                alt="redis-logo"
+              />
+              <div className="card-body others">
+                <h5>
+                  <strong>Redis</strong>
+                </h5>
+              </div>
+            </div>
           </div>
         </div>
 
@@ -198,13 +215,13 @@ export default function Skills() {
           <div className="container certs">
             <ul className="cert-items">
               <a
-                  href="https://www.credly.com/badges/58bad974-e41d-4947-acb0-55430885ccde/public_url"
-                  target="_blank"
-                  rel="noreferrer"
-                >
-                  <li>
-                    AWS Certified Cloud Practitioner<small>AWS</small>
-                  </li>
+                href="https://www.credly.com/badges/58bad974-e41d-4947-acb0-55430885ccde/public_url"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <li>
+                  AWS Certified Cloud Practitioner<small>AWS</small>
+                </li>
               </a>
 
               <a
@@ -228,7 +245,7 @@ export default function Skills() {
               </a>
 
               <a
-                href="https://drive.google.com/file/d/1JZB948Xn8N5FwT_OB-serUmDdkZHi5iW/view"
+                href="https://drive.google.com/file/d/1Q0vzY-yMXFfpmHhG7iCHPSkCsHYVSJXT/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -238,7 +255,7 @@ export default function Skills() {
               </a>
 
               <a
-                href="https://drive.google.com/file/d/1qgzAONsVbE3N8aYkadhHwfaiVkLono9c/view"
+                href="https://drive.google.com/file/d/11i8H1OhqcOSMUBF93WSCBHEPyJcBpxl4/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -248,7 +265,7 @@ export default function Skills() {
                 </li>
               </a>
 
-              <a
+              {/* <a
                 href="https://drive.google.com/file/d/1HgiWlmPSMxd0H1YEyJoE42ffHtiY72fi/view"
                 target="_blank"
                 rel="noreferrer"
@@ -256,10 +273,10 @@ export default function Skills() {
                 <li>
                   Spring Boot Fundamentals<small>Pluralsight</small>
                 </li>
-              </a>
+              </a> */}
 
               <a
-                href="https://drive.google.com/file/d/1t6QxK-xZn9QHm-WD3SHetpEDa9a7Gpjr/view"
+                href="https://drive.google.com/file/d/1QWMM8kpbVh1BVsPZBT6HeuBvI7GHftPJ/view?usp=sharing"
                 target="_blank"
                 rel="noreferrer"
               >
@@ -269,7 +286,7 @@ export default function Skills() {
                 </li>
               </a>
 
-              <a
+              {/* <a
                 href="https://drive.google.com/file/d/1NHIDLVOn9anTSnFIafdV8J_UsIZogJ-u/view"
                 target="_blank"
                 rel="noreferrer"
@@ -289,7 +306,7 @@ export default function Skills() {
                   Spring Framework : Spring Data JPA with Hibernate
                   <small>Pluralsight</small>
                 </li>
-              </a>
+              </a> */}
             </ul>
           </div>
         </div>

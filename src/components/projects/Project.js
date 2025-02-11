@@ -19,9 +19,12 @@ export default function Project() {
               <>
                 <div className="container project-box">
                   <div className="container-sm project">
-                    <h3 className="project-title" key={'data.title'}>
+                    <h3 className="project-title" key={"data.title"}>
                       <strong>{data.title}</strong>{" "}
-                      <small className="project-timestamp" key={"data.timestamp"}>
+                      <small
+                        className="project-timestamp"
+                        key={"data.timestamp"}
+                      >
                         {data.timestamp}
                       </small>
                     </h3>
@@ -30,13 +33,25 @@ export default function Project() {
                       data.tech.map((d) => {
                         return (
                           <>
-                            <span className="badge bg-primary" key={"d"}>{d}</span>
+                            <span className="badge bg-primary" key={"d"}>
+                              {d}
+                            </span>
                             &nbsp;&nbsp;
                           </>
                         );
                       })}
 
-                    <h5 className="project-description" key={"data.description"}>{data.description}</h5>
+                    <h5
+                      className="project-description"
+                      key={"data.description"}
+                    >
+                      {data.description.split("\n").map((line, i) => (
+                        <React.Fragment key={i}>
+                          {line}
+                          <br />
+                        </React.Fragment>
+                      ))}
+                    </h5>
 
                     <a
                       className="github-link"
@@ -85,24 +100,26 @@ export default function Project() {
           })
       }
 
-<div className="container more">
-                  <a href="https://github.com/Gizmosoft" target="_blank" rel="noreferrer"><h5><b>Follow my other Projects on my GitHub!&nbsp;&nbsp;</b>
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
-                    fill="currentColor"
-                    class="bi bi-arrow-up-right-square"
-                    viewBox="0 0 16 16"
-                  >
-                    <path
-                      fill-rule="evenodd"
-                      d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"
-                    />
-                  </svg>
-                  </h5>
-                  </a>
-                </div>
+      <div className="container more">
+        <a href="https://github.com/Gizmosoft" target="_blank" rel="noreferrer">
+          <h5>
+            <b>Follow my other Projects on my GitHub!&nbsp;&nbsp;</b>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="16"
+              height="16"
+              fill="currentColor"
+              class="bi bi-arrow-up-right-square"
+              viewBox="0 0 16 16"
+            >
+              <path
+                fill-rule="evenodd"
+                d="M15 2a1 1 0 0 0-1-1H2a1 1 0 0 0-1 1v12a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V2zM0 2a2 2 0 0 1 2-2h12a2 2 0 0 1 2 2v12a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2V2zm5.854 8.803a.5.5 0 1 1-.708-.707L9.243 6H6.475a.5.5 0 1 1 0-1h3.975a.5.5 0 0 1 .5.5v3.975a.5.5 0 1 1-1 0V6.707l-4.096 4.096z"
+              />
+            </svg>
+          </h5>
+        </a>
+      </div>
     </>
   );
 }
