@@ -1,8 +1,9 @@
 [
     {
-        "id": -2,
+        "id": 0,
         "title": "Ayuda - AI Course Recommendation System",
         "timestamp": "May 2025 - Jul 2025",
+        "thumbnail": "ayuda.png",
         "tech": [
             "FastAPI",
             "React",
@@ -22,9 +23,10 @@
         "live": ""
     },
     {
-        "id": -1,
+        "id": 1,
         "title": "Graver - Postcard Sharing App",
         "timestamp": "Jan 2025 - Feb 2025",
+        "thumbnail": "graver.png",
         "tech": [
             "Javascript",
             "Node.js",
@@ -42,9 +44,10 @@
         "live": "https://graver.onrender.com/"
     },
     {
-        "id": 0,
+        "id": 2,
         "title": "PledgePilot",
         "timestamp": "Oct 2023 - Dec 2023",
+        "thumbnail": "pledgepilot.png",
         "tech": [
             "Javascript",
             "Node.js",
@@ -62,9 +65,10 @@
         "live": ""
     },
     {
-        "id": 1,
+        "id": 3,
         "title": "Barclays Premier League Dashboard",
         "timestamp": "Jan 2023",
+        "thumbnail": "bpl.jpg",
         "tech": [
             "Java Spring Boot",
             "Apache Tomcat",
@@ -79,9 +83,10 @@
         "live": ""
     },
     {
-        "id": 2,
+        "id": 4,
         "title": "Novelist - Book Tracking App",
         "timestamp": "May 2022 - Jun 2022",
+        "thumbnail": "novelist.jpg",
         "tech": [
             "Java Spring Boot",
             "Apache Cassandra",
@@ -94,9 +99,10 @@
         "live": ""
     },
     {
-        "id": 3,
+        "id": 5,
         "title": "To-Do List",
         "timestamp": "Apr 2022",
+        "thumbnail": "todo.jpg",
         "tech": [
             "ReactJs",
             "Bootstrap",
@@ -108,9 +114,10 @@
         "live": "https://zph2n1.csb.app/"
     },
     {
-        "id": 4,
+        "id": 6,
         "title": "Emotional Assistant Powered by Artificial Intelligence",
         "timestamp": "Oct 2019 - May 2020",
+        "thumbnail": "bezzie.png",
         "tech": [
             "Python",
             "Pandas",
@@ -123,9 +130,10 @@
         "live": ""
     },
     {
-        "id": 5,
+        "id": 7,
         "title": "Face-Recognition Based Attendance Manager",
         "timestamp": "Apr 2019 - May 2019",
+        "thumbnail": "facerecognition.png",
         "tech": [
             "Python",
             "OpenCV"
@@ -136,9 +144,10 @@
         "live": ""
     },
     {
-        "id": 6,
+        "id": 8,
         "title": "Blabbershare - Blog",
         "timestamp": "Sept 2018 - Nov 2018",
+        "thumbnail": "blabbershare.png",
         "tech": [
             "Django",
             "HTML/CSS",
@@ -151,9 +160,10 @@
         "live": ""
     },
     {
-        "id": 7,
+        "id": 9,
         "title": "Solus Night - 2D Adventure Platformer Game",
         "timestamp": "Nov 2021 - Jan 2022",
+        "thumbnail": "solusnight.png",
         "tech": [
             "Unity3D",
             "C#",
