@@ -21,11 +21,11 @@ export default function Education() {
 
           <div className="container-sm degree-div">
             <h4 className="degree">
-              Master of Science (M.S.) | 2023 - 2025 (Expected){" "}
+              Master of Science (M.S.) | 2023 - 2025 {" "}
             </h4>
             <h5 className="branch">Software Engineering Systems</h5>
             <h5 className="grade">
-              Grade: <label>3.68 / 4.00</label>
+              Grade: <label>3.73 / 4.00</label>
             </h5>
             <br />
 
@@ -39,6 +39,8 @@ export default function Education() {
               <li>INFO 6105 : Data Science Engineering Methods & Tools</li>
               <li>INFO 7255 : Adv. Big Data Indexing</li>
               <li>INFO 6105 : Network Structures & Cloud Computing</li>
+              <li>CSYE 7374 : Design Patterns</li>
+              <li>CSYE 7374 : Intro to AI Agents Infrastructure</li>
             </ul>
             <br />
           </div>

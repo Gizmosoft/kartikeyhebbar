@@ -28,7 +28,7 @@ export default function Workex() {
                   <small>Westford, MA</small>
                 </h3>
                 <h5 className="card-title">
-                  <strong>R&D Software Engineer Intern</strong>
+                  <strong>Software Engineer Intern</strong>
                 </h5>
                 <h6 className="card-title">June 2024 - December 2024</h6>
                 <br />
@@ -36,17 +36,25 @@ export default function Workex() {
               <div className="flip-card-back">
                 <h5>
                   <ul>
-                    <li>
-                      Worked on developing a utility features and APIs using
+                    {/* <li>
+                    Enhanced license usage metrics visibility by 80% on nGeniusONE and Omnis Cyber Intelligence by implementing a cross-platform
+                    utility using Java and JavaScript
+                    Worked on developing a utility features and APIs using
                       Java and Javascript to enhance license usage visibility on
                       key products like nGeniusONE and Omnis Cyber Intelligence,
                       resulting in over 80% increase in visibility
-                    </li>
+                    </li> */}
                     <li>
-                      Created a scalable configuration debugger tool in
+                    Implemented real-time monitoring and data retrieval for 5G networks by developing RESTful APIs in Java, benefiting 4 telecom
+                    operators across North America and Europe
+                      {/* Created a scalable configuration debugger tool in
                       React.js, Java and PostgreSQL to aggregate and display
                       status of over 50 different configurations across hundreds
-                      of devices and servers
+                      of devices and servers */}
+                    </li>
+                    <li>
+                    Optimized issue detection and resolution speed by 50% across hundreds of devices by shipping a scalable configuration debugger
+                    feature for nGeniusONE using React.js, Java, and PostgreSQL to aggregate and visualize 50+ system configurations
                     </li>
                     <span className="badge bg-warning">Java</span>
                     <span className="badge bg-danger">REST API</span>

@@ -1,20 +1,45 @@
 [
     {
-        "id": -1,
-        "title": "Ayuda",
-        "timestamp": "Oct 2023 - Present",
+        "id": -2,
+        "title": "Ayuda - AI Course Recommendation System",
+        "timestamp": "May 2025 - Jul 2025",
         "tech": [
-            "Python",
-            "Machine Learning",
-            "ReactJS",
+            "FastAPI",
+            "React",
+            "Material-UI",
             "REST API",
-            "HTML/CSS",
-            "MongoDB"
+            "Neo4j",
+            "Pinecone",
+            "Redis",
+            "Ollama",
+            "PostgreSQL",
+            "Docker",
+            "Hugging Face"
         ],
-        "domain": "AI/Web Development",
-        "description": "Ayuda is a course recommendation system for University students which leverages AI models to understand the students' profile and recommend them the most suitable courses from their university course catalog.",
+        "domain": "GenAI/Web Development",
+        "description": "Ayuda is a course recommendation system for University students which leverages AI models to understand the students' profile and recommend them the most suitable courses from their university course catalog.\nDesigned an AI-driven course recommendation system using FastAPI, PostgreSQL, Redis, Pinecone and Neo4j to deliver personalized course suggestions to students; achieved 2-4s response times, 100+ concurrent users, and over 70% relevance accuracy.\nIntegrated a custom LLM model using Ollama to generate real-time, personalized course recommendation explanations, delivering AI-powered reasoning for 100% of course matches with an average response time under 15 seconds per request.",
         "source": "https://github.com/Ayuda-ai",
         "live": ""
+    },
+    {
+        "id": -1,
+        "title": "Graver - Postcard Sharing App",
+        "timestamp": "Jan 2025 - Feb 2025",
+        "tech": [
+            "Javascript",
+            "Node.js",
+            "React.js",
+            "Material-UI",
+            "REST API",
+            "MongoDB",
+            "Cloudinary",
+            "Llama 3.3-70b",
+            "Google OAuth"
+        ],
+        "domain": "GenAI/Web Development",
+        "description": "Created a full-stack app using Node.js/Express.js, React, Material UI, MongoDB, Cloudinary API for scalable image storage and Google OAuth for authentication; integrated the Llama 3.3-70b LLM via Groq for personalized message generation.\nLeveraged Render as a PaaS solution to host the application and implemented proactive monitoring with UptimeRobot to ensure high availability and reliability, resulting in minimal server downtime and a seamless user experience.",
+        "source": "https://github.com/Gizmosoft/graver-server",
+        "live": "https://graver.onrender.com/"
     },
     {
         "id": 0,
