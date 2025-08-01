@@ -210,12 +210,12 @@ body {
 }
 
 @media screen and (max-width: 768px){
-    [class*="container"]{
+    .container{
         flex-direction: column;
         height: 97vh;
         width: 94vw;
     }
-    [class*="container-dp"]{
+    .container-dp{
         align-items: center;
         width: auto;
     }
@@ -224,10 +224,12 @@ body {
         margin-left: 0;
     }
     
-    /* Mobile Calendly Button */
+    /* Mobile Calendly Button - Ensure it stays fixed at bottom right */
     .calendly-button-container {
-        bottom: 20px;
-        right: 20px;
+        position: fixed !important;
+        bottom: 20px !important;
+        right: 20px !important;
+        z-index: 1000 !important;
     }
     
     .calendly-button {
