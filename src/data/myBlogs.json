@@ -1,0 +1,41 @@
+[
+    {
+        "id": 1,
+        "title": "Ayuda - Course Recommendation System for University Students",
+        "timestamp": "July 2025",
+        "thumbnail": "ayuda.png",
+        "category": "Artificial Intelligence",
+        "tags": [
+            "FastAPI",
+            "Redis",
+            "React",
+            "Vector Databases",
+            "Graph Databases",
+            "Recommendation Systems"
+        ],
+        "excerpt": "University life is one of the most pivotal stages in a person’s journey, laying the foundation for future career decisions and personal growth. A key aspect of this experience is coursework, which is carefully designed to help students...",
+        "content": "",
+        "readTime": "18 min read",
+        "source": "https://kartikeyblogs.hashnode.dev/ayuda-course-recommendation-system-for-university-students",
+        "live": ""
+    },
+    {
+        "id": 2,
+        "title": "Event Loops vs Thread-Based Concurrency: A Practical Analysis",
+        "timestamp": "July 2025",
+        "category": "Distributed Systems",
+        "thumbnail": "mediumblog.jpg",
+        "tags": [
+            "Java",
+            "Python",
+            "Backend",
+            "Concurrent Programming",
+            "Distributed Systems"
+        ],
+        "excerpt": "Concurrency is a fundamental concept in modern software development, enabling applications to handle multiple tasks simultaneously. This blog explores two prominent concurrency models...",
+        "content": "",
+        "readTime": "5 min read",
+        "source": "https://medium.com/@kartikey.hebbar/event-loops-vsthread-based-concurrency-a-practical-analysis-f37b7b922b9c",
+        "live": ""
+    }
+] 

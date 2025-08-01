@@ -12,6 +12,7 @@ import {
 import Workex from './components/workex/Workex';
 import Education from './components/education/Education';
 import Project from './components/projects/Project';
+import Blog from './components/blog/Blog';
 import Research from './components/research/Research';
 import Aspirations from './components/aspirations/Aspirations';
 import Skills from './components/skills/Skills';
@@ -33,6 +34,7 @@ function App() {
         <Route exact path={"/education"} element={<Education />} />
         <Route exact path={"/skills"} element={<Skills />} />
         <Route exact path={"/projects"} element={<Project />} />
+        <Route exact path={"/blogs"} element={<Blog />} />
         <Route exact path={"/research"} element={<Research />} />
         <Route exact path={"/aspirations"} element={<Aspirations />} />
       </Routes>

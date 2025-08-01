@@ -1,0 +1,162 @@
+.blog-box {
+    border: 3px solid #17a2b8;
+    border-radius: 25px;
+    margin: 5 5 5 5;
+}
+
+.blog-content {
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    padding: 20px;
+}
+
+.blog-thumbnail {
+    flex-shrink: 0;
+    width: 200px;
+    height: 150px;
+    border-radius: 10px;
+    overflow: hidden;
+    border: 2px solid #dee2e6;
+    background-color: #f8f9fa;
+}
+
+.thumbnail-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transition: transform 0.3s ease;
+}
+
+.thumbnail-image:hover {
+    transform: scale(1.05);
+}
+
+.blog-details {
+    flex: 1;
+    min-width: 0;
+}
+
+.blog-header {
+    margin-bottom: 15px;
+}
+
+.blog-title {
+    margin-bottom: 10px;
+    color: white;
+}
+
+.blog-meta {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 10px;
+    font-size: 0.9em;
+    color: #adb5bd;
+}
+
+.blog-timestamp {
+    color: #17a2b8;
+    font-weight: 500;
+}
+
+.blog-read-time {
+    color: #28a745;
+    font-weight: 500;
+}
+
+.blog-category {
+    color: #ffc107;
+    font-weight: 500;
+}
+
+.blog-excerpt {
+    margin-bottom: 15px;
+    line-height: 1.6;
+    color: #e9ecef;
+}
+
+.blog-excerpt p {
+    margin: 0;
+    text-align: justify;
+}
+
+.blog-actions {
+    margin-top: 15px;
+}
+
+.read-more-link {
+    color: #17a2b8;
+    text-decoration: none;
+    margin-right: 20px;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.read-more-link:hover {
+    color: #138496;
+}
+
+.source-link {
+    color: #6c757d;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    transition: color 0.3s ease;
+}
+
+.source-link:hover {
+    color: #495057;
+}
+
+.badge.bg-secondary {
+    background-color: #6c757d !important;
+    color: white;
+    margin-right: 5px;
+    margin-bottom: 5px;
+}
+
+.more a {
+    padding-top: 5px;
+    padding-bottom: 20px;
+    position: relative;
+    color: #17a2b8;
+    text-align: center;
+    width: 100%;
+    max-width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+    .blog-container {
+        height: auto;
+        width: auto;
+        align-items: center;
+    }
+    .blog-box {
+        border-width: auto;
+        height: min-content;
+    }
+    .blog-content {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+    .blog-thumbnail {
+        width: 100%;
+        max-width: 300px;
+        height: 200px;
+        margin-bottom: 15px;
+    }
+    .blog-meta {
+        flex-direction: column;
+        gap: 5px;
+        align-items: center;
+    }
+    .blog-actions {
+        text-align: center;
+    }
+    .read-more-link,
+    .source-link {
+        margin: 5px;
+    }
+} 
