@@ -28,8 +28,6 @@ export interface HomeData {
   greeting: string;
   bio: string[];
   location: string;
-  calendlyUrl: string;
-  calendlyLabel: string;
 }
 
 export interface Experience {

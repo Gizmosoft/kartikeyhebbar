@@ -12,7 +12,6 @@ const iconMap = {
 interface ProfileHeroProps {
   home: HomeData;
   site: SiteData;
-  onBookMeeting: () => void;
 }
 
 function splitItems(value: string): string[] {
@@ -22,7 +21,7 @@ function splitItems(value: string): string[] {
     .filter(Boolean);
 }
 
-export function ProfileHero({ home, site, onBookMeeting }: ProfileHeroProps) {
+export function ProfileHero({ home, site }: ProfileHeroProps) {
   const taglineItems = splitItems(home.tagline);
   const stackItems = home.stackLines.flatMap(splitItems);
 
@@ -89,9 +88,6 @@ export function ProfileHero({ home, site, onBookMeeting }: ProfileHeroProps) {
           <MapPin size={16} />
           <span>{home.location}</span>
         </div>
-        <button type="button" className={styles.cta} onClick={onBookMeeting}>
-          {home.calendlyLabel}
-        </button>
       </div>
     </section>
   );
