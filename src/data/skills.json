@@ -1,0 +1,92 @@
+{
+  "heading": "Skills 🤹",
+  "groups": [
+    {
+      "id": "languages",
+      "title": "Programming Languages",
+      "items": [
+        { "name": "Java", "logo": "java-logo.png" },
+        { "name": "Python", "logo": "python-logo.jpg" },
+        { "name": "Javascript", "logo": "js-logo.png" },
+        { "name": "Typescript", "logo": "ts-logo.png" },
+        { "name": "Go", "logo": "golang-logo.png" },
+        { "name": "SQL", "logo": "sql-logo.png" },
+        { "name": "HTML/CSS", "logo": "html-css.png" }
+      ]
+    },
+    {
+      "id": "frameworks",
+      "title": "Libraries & Frameworks",
+      "items": [
+        { "name": "Spring Framework", "logo": "spring-logo.png" },
+        { "name": "Spring Boot", "logo": "spring-boot.webp" },
+        { "name": "Django", "logo": "django-logo.jpg" },
+        { "name": "React", "logo": "react-logo.png" },
+        { "name": "Bootstrap", "logo": "bootstrap.jpg" },
+        { "name": "Tailwind CSS", "logo": "tailwindcss-logo.png" },
+        { "name": "Langchain", "logo": "langchain-logo.png" }
+      ]
+    },
+    {
+      "id": "tools",
+      "title": "Tools & Technologies",
+      "items": [
+        { "name": "REST API", "logo": "rest.png" },
+        { "name": "WebSockets", "logo": "websockets-logo.png" },
+        { "name": "AWS", "logo": "aws.png" },
+        { "name": "Google Cloud Platform", "logo": "gcp-logo.png" },
+        { "name": "MongoDB", "logo": "mongo.webp" },
+        { "name": "Apache Cassandra", "logo": "cassandra.png" },
+        { "name": "Redis", "logo": "redis.png" },
+        { "name": "Docker", "logo": "docker-logo.png" }
+      ]
+    }
+  ],
+  "otherTechnologies": [
+    "Claude Code",
+    "ChatGPT Codex",
+    "Groq Inference Engine",
+    "Ollama",
+    "Cursor",
+    "Maven",
+    "Git/GitHub",
+    "Postman",
+    "Apache Tomcat",
+    "Machine Learning (OpenCV, SciKit-Learn, Matplotlib, SciPy, NumPy, Pandas)",
+    "Sailpoint",
+    "CyberArk",
+    "Microsoft Active Directory/ADAM"
+  ],
+  "certifications": [
+    {
+      "title": "AWS Certified Cloud Practitioner",
+      "issuer": "AWS",
+      "url": "https://www.credly.com/badges/58bad974-e41d-4947-acb0-55430885ccde/public_url"
+    },
+    {
+      "title": "AWS Certified Cloud Practitioner",
+      "issuer": "ACloudGuru",
+      "url": "https://verify.acloud.guru/C111766D223A"
+    },
+    {
+      "title": "Backend Web Development with Django",
+      "issuer": "Udemy",
+      "url": "https://www.udemy.com/certificate/UC-Y10CZ1Z8/"
+    },
+    {
+      "title": "Microservices Architecture",
+      "issuer": "Pluralsight",
+      "url": "https://drive.google.com/file/d/1Q0vzY-yMXFfpmHhG7iCHPSkCsHYVSJXT/view?usp=sharing"
+    },
+    {
+      "title": "Fundamentals of Object Oriented Programming",
+      "issuer": "Pluralsight",
+      "url": "https://drive.google.com/file/d/11i8H1OhqcOSMUBF93WSCBHEPyJcBpxl4/view?usp=sharing"
+    },
+    {
+      "title": "Spring Framework - Creating Your First Spring Boot Application",
+      "issuer": "Pluralsight",
+      "url": "https://drive.google.com/file/d/1QWMM8kpbVh1BVsPZBT6HeuBvI7GHftPJ/view?usp=sharing"
+    }
+  ]
+}

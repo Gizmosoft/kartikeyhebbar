@@ -1,0 +1,23 @@
+{
+  "name": "Kartikey Hebbar",
+  "role": "Software Engineer",
+  "photo": "kartikey-thumbnail.png",
+  "tagline": "Tech Explorer | Thinker | Lifelong Learner",
+  "stackLines": [
+    "Full-Stack Engineering | Distributed Systems | Agentic AI | System Design"
+  ],
+  "greeting": "Hi! I'm Kartikey.👋",
+  "bio": [
+    "I'm a Software Engineer with a passion for building scalable and efficient systems. I'm currently working at <a href='https://www.netscout.com/' target='_blank'>NetScout Systems, Inc.</a>, where I contribute to the development of some of their flagship products such as nGeniusONE and Omnis Cyber Intelligence.",
+    "I like to identify myself as a technology generalist, with a keen interest in <strong>Full-Stack Engineering</strong>, <strong>Distributed Systems</strong>, <strong>Agentic AI</strong>, and <strong>System Design</strong>.",
+    "I stepped into technology as a hobbyist with a love for video games but a limited access to computers while growing up. I wrote my first line of code when I started as a freshmen at <a href='https://bit-bangalore.edu.in/' target='_blank'>Bangalore Institute of Technology</a>, where I pursued a Bachelor's in Telecommunications Engineering. This completely changed the trajectory of my career and pushed me towards exploring the world of software development.",
+    "After working in automation, IAM Ops and web infrastructure for about 2.5 years, I returned back to academia to pursue a <strong>Master of Science in Software Engineering Systems</strong> at <a href='https://www.northeastern.edu/' target='_blank'>Northeastern University</a>, Boston. During this time, my trait of being a generalist helped me explore and understand the various facets of software development and engineering. But it also helped me understand more about myself and develop a deeper interest in certain areas where I have been working on to become a specialist.",
+    "I started working again in the industry from 2025 after graduating and rejoined NetScout Systems, where I had an internship stint a summer before that. Now, most of my time at NetScout is spent working on new features for nGeniusONE and Omnis Cyber Intelligence, redesigning end-to-end workflows for better user experience and architecting systems for new products.",
+    "Lately, I've been exploring self-hosted Small-Language Models (SLMs) and their applications in enterprise software using Agentic AI with robust harness. I also spend a lot of my time after work exploring AI and Distributed Systems by building interested projects.",
+    "Beyond code, you'll find me reading books, playing video games, geeking out over entrepreneurship, and watching soccer. Sometimes, I trade my keyboard for a guitar to jam a little!",
+    "Always excited to connect, collaborate, and build things that make a real impact. Let's chat!"
+  ],
+  "location": "Boston, MA",
+  "calendlyUrl": "https://calendly.com/kartikey-hebbar/30min",
+  "calendlyLabel": "Book a Meeting"
+}

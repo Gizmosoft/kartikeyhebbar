@@ -1,0 +1,70 @@
+{
+  "heading": "Education 🎓",
+  "entries": [
+    {
+      "id": 0,
+      "school": "Northeastern University",
+      "location": "Boston, MA",
+      "affiliation": "",
+      "degree": "Master of Science (M.S.) | 2023 - 2025",
+      "field": "Software Engineering Systems",
+      "grade": "3.73 / 4.00",
+      "courses": [
+        "CSYE 6200 : Concepts of Object-Oriented Design",
+        "INFO 6150 : Web Design & User Experience Engineering",
+        "INFO 6205 : Program Structures & Algorithms",
+        "INFO 6105 : Data Science Engineering Methods & Tools",
+        "INFO 7255 : Adv. Big Data Indexing",
+        "INFO 6105 : Network Structures & Cloud Computing",
+        "CSYE 7374 : Design Patterns",
+        "CSYE 7374 : Intro to AI Agents Infrastructure"
+      ],
+      "achievements": [
+        {
+          "title": "CivicHacks 2025, Winner : ",
+          "description": "Won Best AI category award for building <a href='https://github.com/TFC-Civic-Tech-Hackathon/PoliSightsAI' target='_blank'>PoliSights.ai</a>"
+        }
+      ],
+      "responsibilities": []
+    },
+    {
+      "id": 1,
+      "school": "Bangalore Institute of Technology",
+      "location": "Bengaluru, IN",
+      "affiliation": "affiliated to Visvesvaraya Technological University (VTU), Belgaum",
+      "degree": "Bachelor of Engineering (B.E.) | 2016 - 2020",
+      "field": "Telecommunication Engineering",
+      "grade": "7.14/10.0",
+      "courses": [
+        "Engineering Mathematics (Calculus, Algebra, Statistics, Probability)",
+        "Programming in C & Data Structures",
+        "Operating Systems",
+        "Real Time Systems",
+        "Computer Communication Networks",
+        "Microprocessor",
+        "Artificial Intelligence"
+      ],
+      "achievements": [
+        {
+          "title": "CodeRank 2020, Winner : ",
+          "description": "A coding contest organized by the IEEE Club of BIT"
+        },
+        {
+          "title": "Inceptra, 2019 : ",
+          "description": "Developed and showcased a face-recognition based attendance manging system in this technology exhibition organized by BIT."
+        },
+        {
+          "title": "Cisco IoT Hackathon, RV College of Engineering : ",
+          "description": "Repesented college in this Hackathon Finals organized by Cisco by prototyping an automatic vehicle lockdown system to prevent drunk driving."
+        }
+      ],
+      "responsibilities": [
+        {
+          "title": "Diminished-7th - Official Music Club of BIT",
+          "role": "Sub-Core Member",
+          "description": "Organized various cultural events and competitions in college. Represented college in various music competitions like VTU Youth Festival. Performed on a special gig organized for the underprivileged school kids from an NGO."
+        }
+      ]
+    }
+  ]
+}

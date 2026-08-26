@@ -1,0 +1,29 @@
+.card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+}
+
+.title {
+  font-size: 1.2rem;
+  margin-bottom: 0.5rem;
+}
+
+.paper {
+  color: var(--accent);
+  font-weight: 500;
+  margin-bottom: 0.25rem;
+}
+
+.issued {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  margin-bottom: 1.1rem;
+}
+
+.description p {
+  color: var(--text-muted);
+  margin-bottom: 0.85rem;
+}

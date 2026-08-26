@@ -1,0 +1,33 @@
+{
+  "brand": "</> Kartikey Hebbar",
+  "name": "Kartikey Hebbar",
+  "title": "Software Engineer",
+  "footer": "Created with ♥ by Kartikey Hebbar",
+  "githubProfile": "https://github.com/Gizmosoft",
+  "nav": [
+    { "label": "Home", "path": "/" },
+    { "label": "Work Experience", "path": "/workex" },
+    { "label": "Education", "path": "/education" },
+    { "label": "Skills", "path": "/skills" },
+    { "label": "Projects", "path": "/projects" },
+    { "label": "Blogs", "path": "/blogs" },
+    { "label": "Research", "path": "/research" }
+  ],
+  "social": [
+    {
+      "id": "linkedin",
+      "label": "LinkedIn",
+      "url": "https://www.linkedin.com/in/kartikey-v-hebbar/"
+    },
+    {
+      "id": "github",
+      "label": "GitHub",
+      "url": "https://github.com/Gizmosoft"
+    },
+    {
+      "id": "email",
+      "label": "Email",
+      "url": "mailto:kartikey.hebbar@gmail.com"
+    }
+  ]
+}

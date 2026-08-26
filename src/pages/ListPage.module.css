@@ -1,0 +1,9 @@
+.stack {
+  display: grid;
+  gap: 1.25rem;
+}
+
+.footerNote {
+  margin-top: 2.5rem;
+  text-align: center;
+}

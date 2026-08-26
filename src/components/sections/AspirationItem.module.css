@@ -1,0 +1,23 @@
+.item {
+  margin-bottom: 2rem;
+}
+
+.question {
+  font-size: 1.2rem;
+  margin-bottom: 0.85rem;
+}
+
+.paragraphs p,
+.bullets {
+  color: var(--text-muted);
+  font-size: 1.02rem;
+}
+
+.paragraphs p {
+  margin-bottom: 0.85rem;
+}
+
+.bullets {
+  display: grid;
+  gap: 0.55rem;
+}

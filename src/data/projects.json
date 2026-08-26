@@ -1,0 +1,245 @@
+{
+    "heading": "Personal Projects 🖥️",
+    "githubNote": "Follow my other Projects on my GitHub!",
+    "items": [
+        {
+            "id": -3,
+            "title": "Gup - Mobile Chat App",
+            "timestamp": "June 2026 -  Present",
+            "thumbnail": "gup-logo.png",
+            "tech": [
+                "Typescript",
+                "Java Spring Boot",
+                "React Native",
+                "Websockets",
+                "Postgresql",
+                "Docker",
+                "Cloudflare",
+                "SQLite",
+                "End-to-End Encryption"
+            ],
+            "domain": "Mobile App Development",
+            "description": "Gup is a mobile chat app that allows users to chat with other users in real-time.\nAll the chat conversations are stored locally on the client devices on a dedicated SQLite database. The central database just acts as a blind store-and-forwardrelay and holds messages in a queue until the recipient is online.\nAll messages are end-to-end encrypted using Signal Double Ratchet Algorithm.",
+            "source": "https://github.com/Gizmosoft/gup",
+            "live": ""
+        },
+        {
+            "id": -2,
+            "title": "Agent2Agent Conversation Model",
+            "timestamp": "January 2026 - March 2026",
+            "thumbnail": "a2a-model-thumbnail.png",
+            "tech": [
+                "Typescript",
+                "Context Engineering",
+                "Agentic AI",
+                "Caching",
+                "Ollama"
+            ],
+            "domain": "Agentic AI",
+            "description": "A sophisticated system that enables autonomous conversations between AI agents with advanced context management, memory persistence, and conversation orchestration capabilities.\nThis project implements an autonomous conversation system where two AI agents (Alice and Bob) engage in natural, context-aware dialogues. The system features intelligent context management, episodic memory storage, topic detection, engagement tracking, and advanced conversation orchestration through a dedicated orchestrator agent called Cipher.",
+            "source": "https://github.com/Gizmosoft/a2a_conversation_model",
+            "live": ""
+        },
+        {
+            "id": -1,
+            "title": "dbVybe",
+            "timestamp": "July 2025 - August 2025",
+            "thumbnail": "dbVybe-logo.png",
+            "tech": [
+                "Java",
+                "React",
+                "Typescript",
+                "REST API",
+                "HTML/CSS",
+                "Spring Boot",
+                "Spring AI",
+                "Neo4j",
+                "Qdrant",
+                "PostgreSQL",
+                "Langchain",
+                "Groq Inference Engine",
+                "Akka Actor Model",
+                "Distributed Systems"
+            ],
+            "domain": "Agentic AI",
+            "description": "dbVybe is a no-code, multi-agent database exploration system which allows users to connect a database of their choice and explore it using natural language.\nIt uses Akka Actor Model to build a distributed network of multiple AI agents designed to handle distinct specific tasks.\nLangchain orchestrates the workflow and helps agents communicate with each other across different actors.\nGroq Inference Engine is used to connect the agents to LLMs.\nNeo4j and Qdrant are used to analyze the schema, store and query the database.",
+            "source": "https://github.com/Gizmosoft/dbvybe",
+            "live": ""
+        },
+        {
+            "id": 0,
+            "title": "Ayuda - AI Course Recommendation System",
+            "timestamp": "May 2025 - July 2025",
+            "thumbnail": "ayuda.png",
+            "tech": [
+                "FastAPI",
+                "React",
+                "Material-UI",
+                "REST API",
+                "Neo4j",
+                "Pinecone",
+                "Redis",
+                "Ollama",
+                "PostgreSQL",
+                "Docker",
+                "Hugging Face"
+            ],
+            "domain": "GenAI/Web Development",
+            "description": "Ayuda is a course recommendation system for University students which leverages AI models to understand the students' profile and recommend them the most suitable courses from their university course catalog.\nDesigned an AI-driven course recommendation system using FastAPI, PostgreSQL, Redis, Pinecone and Neo4j to deliver personalized course suggestions to students; achieved 2-4s response times, 100+ concurrent users, and over 70% relevance accuracy.\nIntegrated a custom LLM model using Ollama to generate real-time, personalized course recommendation explanations, delivering AI-powered reasoning for 100% of course matches with an average response time under 15 seconds per request.",
+            "source": "https://github.com/Ayuda-ai",
+            "live": ""
+        },
+        {
+            "id": 1,
+            "title": "Graver - Postcard Sharing App",
+            "timestamp": "January 2025 - February 2025",
+            "thumbnail": "graver.png",
+            "tech": [
+                "Javascript",
+                "Node.js",
+                "React.js",
+                "Material-UI",
+                "REST API",
+                "MongoDB",
+                "Cloudinary",
+                "Llama 3.3-70b",
+                "Google OAuth"
+            ],
+            "domain": "GenAI/Web Development",
+            "description": "Created a full-stack app using Node.js/Express.js, React, Material UI, MongoDB, Cloudinary API for scalable image storage and Google OAuth for authentication; integrated the Llama 3.3-70b LLM via Groq for personalized message generation.\nLeveraged Render as a PaaS solution to host the application and implemented proactive monitoring with UptimeRobot to ensure high availability and reliability, resulting in minimal server downtime and a seamless user experience.",
+            "source": "https://github.com/Gizmosoft/graver-server",
+            "live": "https://graver.onrender.com/"
+        },
+        {
+            "id": 2,
+            "title": "PledgePilot",
+            "timestamp": "October 2023 - December 2023",
+            "thumbnail": "pledgepilot.png",
+            "tech": [
+                "Javascript",
+                "Node.js",
+                "ReactJS",
+                "Express.js",
+                "REST API",
+                "HTML/CSS",
+                "Typescript",
+                "Stripe SDK",
+                "MongoDB"
+            ],
+            "domain": "Web Development",
+            "description": "Spearheaded the full-stack development of a crowdfunding web app with 3 other developers using the MERN stack, ensuring a seamless user experience for campaign creation and fund processing via Stripe.\nImplemented a token-based reward system, acknowledging campaign contributors with tokens worth 10% of their contribution to boost user engagement and recognition.\nDevised robust backend REST APIs in Node.js/Express.js with over 10 components and 5 key features seamlessly integrating with frontend components in React.js, Material-UI, Bootstrap, and CSS.",
+            "source": "https://github.com/Gizmosoft/pledgepilot",
+            "live": ""
+        },
+        {
+            "id": 3,
+            "title": "Barclays Premier League Dashboard",
+            "timestamp": "January 2023",
+            "thumbnail": "bpl.jpg",
+            "tech": [
+                "Java Spring Boot",
+                "Apache Tomcat",
+                "ReactJS",
+                "AWS Beanstalk",
+                "REST API",
+                "HTML/CSS"
+            ],
+            "domain": "Web Development",
+            "description": "Designed a Spring Boot web application with RESTful APIs that aggregated and presented comprehensive match data, enhancing fan engagement by providing historical insights for over 20 clubs over a 12-year span.\nStreamlined over 4,500 records dataset migration to HSQLDB using Spring Batch, reducing retrieval times by 30%.\nDeployed responsive React.js UI components for Spring Boot APIs on AWS Beanstalk, ensuring 99.9% uptime and supporting up to 5000 concurrent users.",
+            "source": "https://github.com/Gizmosoft/premierleague-dashboard",
+            "live": ""
+        },
+        {
+            "id": 4,
+            "title": "Novelist - Book Tracking App",
+            "timestamp": "May 2022 - June 2022",
+            "thumbnail": "novelist.jpg",
+            "tech": [
+                "Java Spring Boot",
+                "Apache Cassandra",
+                "REST API",
+                "HTML/Bootstrap"
+            ],
+            "domain": "Web Development",
+            "description": "A book tracking web application developed using Spring Boot Framework of Java and Apache Cassandra (DataStax Astra) NoSQL database which helps users track their book reading, update reading status and rate the books.\nThe dataset for book tracking from the Open Library has been reduced to smaller size for testing purposes however, this application uses Open Library Web API to allow users to search any book in the world. Apache Cassandra offers high performance and scalability to this project.\nThymeleaf templating engine is used to create simple UI along with HTML, CSS and Bootstrap. Spring Boot is the backend technology connecting to the Web APIs and the database.",
+            "source": "https://github.com/Gizmosoft/Novelist-Book-Tracking-App",
+            "live": ""
+        },
+        {
+            "id": 5,
+            "title": "To-Do List",
+            "timestamp": "April 2022",
+            "thumbnail": "todo.jpg",
+            "tech": [
+                "ReactJs",
+                "Bootstrap",
+                "HTML/CSS"
+            ],
+            "domain": "Web Development",
+            "description": "This is a To-Do Single Page Application created using React, JSX, HTML, CSS and Bootstrap.\nUsers can add a title and description of to-do items which will show up as a list below on the same page.\nOnce completed, the item can be marked complete.\nThis application uses a Javascript feature called localStorage to store and retrieve the added data from the browser memory itself.This data is persistent across multiple sessions until browser memory is not cleared.",
+            "source": "https://github.com/Gizmosoft/Todo-List-React",
+            "live": "https://zph2n1.csb.app/"
+        },
+        {
+            "id": 6,
+            "title": "Emotional Assistant Powered by Artificial Intelligence",
+            "timestamp": "October 2019 - May 2020",
+            "thumbnail": "bezzie.png",
+            "tech": [
+                "Python",
+                "Pandas",
+                "NumPy",
+                "Scikit-learn"
+            ],
+            "domain": "Artificial Intelligence",
+            "description": "A conversational AI-based chatbot designed to interact with people suffering from various mental illnesses such as Depression, OCD etc. and analyze their sentiments along with handling positive conversations with them.\nIn parallel, the chatbot prepares a graphical representation of the analysis and shares it to the concerned medical practitioner for medical visibility and intervention, thereby bridging a gap between patient and doctors.",
+            "source": "https://github.com/Gizmosoft/Bezzie---Emotional-Assistant-Chatbot",
+            "live": ""
+        },
+        {
+            "id": 7,
+            "title": "Face-Recognition Based Attendance Manager",
+            "timestamp": "April 2019 - May 2019",
+            "thumbnail": "facerecognition.png",
+            "tech": [
+                "Python",
+                "OpenCV"
+            ],
+            "domain": "Artificial Intelligence",
+            "description": "This is a face detection & recognition application to automate attendance management using Computer Vision and OpenCV library (Python).\nThis requires pre-capturing of the attendees pictures with the help of which it trains its Machine Learning model to predict the users later on whenever required. It is capable of detecting multiple people in a single frame.",
+            "source": "https://github.com/Gizmosoft/Face_Recognition_Attendance_Manager",
+            "live": ""
+        },
+        {
+            "id": 8,
+            "title": "Blabbershare - Blog",
+            "timestamp": "September 2018 - November 2018",
+            "thumbnail": "blabbershare.png",
+            "tech": [
+                "Django",
+                "HTML/CSS",
+                "Bootstrap",
+                "PostgreSQL"
+            ],
+            "domain": "Web Development",
+            "description": "A simple blog made using Django Framework of Python and PostgreSQL database on the server-side along with HTML/CSS and Bootstrap framework on the client-side. This blog allows users to authenticate against credentials and post random blogs and pictures.",
+            "source": "https://github.com/Gizmosoft/Blabbershare-AlphaBuild",
+            "live": ""
+        },
+        {
+            "id": 9,
+            "title": "Solus Night - 2D Adventure Platformer Game",
+            "timestamp": "November 2021 - January 2022",
+            "thumbnail": "solusnight.png",
+            "tech": [
+                "Unity3D",
+                "C#",
+                "Game Level Design"
+            ],
+            "domain": "Game Development",
+            "description": "This is a simple 2D-Platformer game designed for Windows OS using C# scripting and Unity3D game engine. It comprises of few small levels incorporating a linear game level design. The game is published on Itch.io",
+            "source": "https://github.com/Gizmosoft/Blabbershare-AlphaBuild",
+            "live": "https://deadcatproductions.itch.io/solus-night"
+        }
+    ]
+}

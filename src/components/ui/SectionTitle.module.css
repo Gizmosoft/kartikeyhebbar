@@ -1,0 +1,16 @@
+.wrap {
+  margin-bottom: 2rem;
+}
+
+.title {
+  font-size: clamp(1.6rem, 3vw, 2.1rem);
+  letter-spacing: -0.03em;
+  margin-bottom: 0.85rem;
+}
+
+.rule {
+  height: 2px;
+  width: 56px;
+  background: var(--accent);
+  border-radius: 999px;
+}

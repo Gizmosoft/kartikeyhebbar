@@ -1,0 +1,64 @@
+.card {
+  background: var(--bg-elevated);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 1.5rem;
+  box-shadow: var(--shadow);
+  transition: border-color var(--transition), transform var(--transition);
+}
+
+.card:hover {
+  border-color: var(--accent);
+  transform: translateY(-2px);
+}
+
+.header {
+  display: flex;
+  gap: 1rem;
+  align-items: flex-start;
+  margin-bottom: 1rem;
+}
+
+.logo {
+  width: 56px;
+  height: 56px;
+  object-fit: contain;
+  border-radius: var(--radius-sm);
+  background: var(--bg-muted);
+  padding: 0.35rem;
+  flex-shrink: 0;
+}
+
+.company {
+  font-size: 1.15rem;
+  margin-bottom: 0.2rem;
+}
+
+.meta {
+  color: var(--text);
+  font-weight: 500;
+  margin-bottom: 0.15rem;
+  font-size: 0.95rem;
+}
+
+.dates {
+  color: var(--text-muted);
+  font-size: 0.88rem;
+  margin: 0;
+}
+
+.bullets {
+  color: var(--text-muted);
+  margin-bottom: 1rem;
+  display: grid;
+  gap: 0.55rem;
+}
+
+.bullets li {
+  padding-left: 0.15rem;
+}
+
+.stack {
+  display: flex;
+  flex-wrap: wrap;
+}

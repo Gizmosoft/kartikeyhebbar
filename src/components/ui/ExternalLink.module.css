@@ -1,0 +1,11 @@
+.link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35rem;
+  font-weight: 600;
+  font-size: 0.95rem;
+}
+
+.link:hover {
+  gap: 0.5rem;
+}

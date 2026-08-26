@@ -1,0 +1,93 @@
+{
+  "heading": "Work Experiences 👔",
+  "experiences": [
+    {
+      "id": 0,
+      "company": "NETSCOUT",
+      "location": "Westford, MA",
+      "title": "Software Engineer",
+      "dates": "September 2025 - Present",
+      "logo": "netscout.png",
+      "bullets": [
+        "Building agentic-AI workflow and applications for Configuration Manager by integrating Small Language Models (Phi-3-Mini, Llama 3.2) with llama.cpp inference engine, designing robust harnesses, loops, and workflows to execute domain-specific tasks",
+        "Optimized search and filtering across modules to run 20% faster with improved usability,and containerized product installations with Docker to streamline deployment across multiple products",
+        "Architected reusable React components with full documentation adopted company-wide; redesigning UIs and workflows across various products to improve UX by 50% using React and SCSS"
+      ],
+      "stack": ["Java", "REST API", "React", "Typescript", "PostgreSQL", "LLM", "llama.cpp"]
+    },
+    {
+      "id": 1,
+      "company": "NETSCOUT",
+      "location": "Westford, MA",
+      "title": "Software Engineer Intern",
+      "dates": "June 2024 - December 2024",
+      "logo": "netscout.png",
+      "bullets": [
+        "Enhanced license usage metrics visibility by 80% on nGeniusONE and Omnis Cyber Intelligence by implementing a cross-platform utility using Java and JavaScript",
+        "Implemented real-time monitoring and data retrieval for 5G networks by developing RESTful APIs in Java, benefiting 4 telecom operators across North America and Europe; generating $500k in revenue",
+        "Optimized issue detection and resolution speed by 50% across hundreds of devices by shipping a scalable configuration debugger feature for nGeniusONE using React, Java, and PostgreSQL to aggregate and visualize 50+ system configurations"
+      ],
+      "stack": ["Java", "REST API", "React", "Javascript", "PostgreSQL"]
+    },
+    {
+      "id": 2,
+      "company": "Accenture",
+      "location": "Bengaluru, India",
+      "title": "Software Engineer Analyst",
+      "dates": "December 2020 - April 2023",
+      "logo": "Accenture.png",
+      "bullets": [
+        "Led Automation projects within Identity & Access Management team and streamlined 5+ critical operations using Python, Java and REST APIs which resulted in saving over 1500 hours of manual work along with improving accountability and resiliency.",
+        "Developed one-click patch scripts using Python to remediate critical Apache vulnerabilities on 100+ Linux-based servers actively used across various teams."
+      ],
+      "stack": [
+        "Python",
+        "Java Spring Boot",
+        "REST API",
+        "Sailpoint",
+        "Amazon Web Services"
+      ]
+    },
+    {
+      "id": 3,
+      "company": "Centre for Cybercrime Investigation Training & Research",
+      "location": "Bengaluru, India",
+      "title": "Software Engineer Intern",
+      "dates": "January 2020 - April 2020",
+      "logo": "ccitr.png",
+      "bullets": [
+        "Designed and Developed a working prototype of a customer facing chatbot.",
+        "Worked on data collection and formation for training the Machine Learning Model. Implemented data collection and auto-training feature to improve the prototype.",
+        "Created dialogflow management from scratch to make chatbot conversations meaningful."
+      ],
+      "stack": ["Python", "SciPy", "NumPy", "Pandas"]
+    },
+    {
+      "id": 4,
+      "company": "Nav Clothing",
+      "location": "Mumbai, India",
+      "title": "Full Stack Web Developer Intern",
+      "dates": "January 2019 - March 2019",
+      "logo": "nav.jpg",
+      "bullets": [
+        "Worked on building various frontend and backend features for the e-commerce website.",
+        "Proactively handled bug fixes to grow the active customer count to more than 100.",
+        "Learnt and implemented various Django methodologies to handle customers at scale."
+      ],
+      "stack": ["Django (Python)", "PostgreSQL", "Bootstrap", "HTML5", "CSS3"]
+    },
+    {
+      "id": 5,
+      "company": "Ouroboros",
+      "location": "Bengaluru, India",
+      "title": "Website Developer Intern",
+      "dates": "April 2017 - May 2017",
+      "logo": "ouroboros_logo.png",
+      "bullets": [
+        "Built frontend for setting up a company portfolio website.",
+        "Worked with a small team to rapidly develop the website for fast customer inolvement."
+      ],
+      "stack": ["HTML5", "CSS3", "Javascript"]
+    }
+  ]
+}
